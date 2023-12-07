@@ -1,0 +1,104 @@
+/*** common start ***/
+* {
+    margin: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    /* font-family: SF PRO DISPLAY; */
+}
+
+img {
+    max-width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*** common end ***/
+
+
+/***** section1 start *******/
+.section1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#page {
+    background-color: #000;
+}
+
+#page>nav {
+    height: 7vh;
+    width: 50vw;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+#page>video {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page>nav>h3 {
+    font-weight: 600;
+}
+
+#page>nav>button {
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+}
+
+/* 
+#vision-logo>img{
+    width: 70%;
+} */
+
+
+#vision-logo {
+    height: 20%;
+    width: 25%;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #797676;
+}
+
+#vision-logo>h3 {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+#page1 {
+    background-color: #fff;
+}
